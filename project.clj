@@ -1,10 +1,10 @@
-(defproject lein-garden "0.3.1-SNAPSHOT"
+(defproject lein-garden "0.3.2-SNAPSHOT"
   :description "A Leiningen plugin for automatically compiling Garden stylesheets"
   :url "https://github.com/noprompt/lein-garden"
   :license {:name "Unlicense"
             :url "http://unlicense.org/UNLICENSE"}
   :min-lein-version "2.5.0"
   :eval-in-leiningen true
-  :dependencies [[garden "1.3.1"]
+  :dependencies [[garden "1.2.1"]
                  [me.raynes/fs "1.4.6"]
-                 [ns-tracker "0.3.0"]])
+                 [ns-tracker "0.3.1"]])

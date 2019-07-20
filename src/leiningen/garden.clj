@@ -117,7 +117,7 @@
 
 (def ^:private garden-profile
   {:dependencies '[^:displace [garden "1.2.1"]
-                   ^:displace [ns-tracker "0.2.2"]]})
+                   ^:displace [ns-tracker "0.3.1"]]})
 
 (defn garden
   "Compile Garden stylesheets."
